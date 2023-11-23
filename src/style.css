@@ -47,8 +47,9 @@ h2 {
   text-decoration: none;
   text-transform: capitalize;
 }
-.contact {
+.contact-me {
   color: var(--title-color);
+  margin-top: 20px;
 }
 .about {
   color: white;
@@ -58,7 +59,7 @@ h2 {
 .about-text {
   display: flex;
   justify-content: space-between;
-  text-align: left;
+  text-align: lcenter;
 }
 p {
   color: var(--main-color);
