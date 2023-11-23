@@ -7,7 +7,7 @@
 
 body {
   margin: 60px auto;
-  max-width: 800px;
+  max-width: 1000px;
   text-align: center;
 }
 
@@ -59,14 +59,17 @@ h2 {
 .about-text {
   display: flex;
   justify-content: space-between;
-  text-align: lcenter;
-}
-p {
+  text-align: center;
   color: var(--main-color);
   padding: 10px;
   margin: 10px;
-  background-color: #dedde2;
+
   border-radius: 10px;
   font-size: 18px;
   line-height: 1.5;
+}
+
+.about-app {
+  color: var(--main-color);
+  text-align: left;
 }
